@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "PostcardProject.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tei2">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt xml:id="titleStmt2">
+            <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+            <title> Monaca Lettera in Viaggio - Edizione digitale diplomatico interpreativa </title>
+            <!-- TRASCRITTORE nome e cognome-->
+            <respStmt>
+               <resp>Transcription by</resp>
+               <name ref="#AV">Andrea Veneziano</name>
+            </respStmt>
+            <!-- ENTE DI APPARTENENZA -->
+            <respStmt>
+               <resp>Ente di Appartenenza</resp>
+               <name type="comune" ref="#SP">Comune di La Spezia</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt xml:id="editionStmt2">
+            <!-- COMPILAZIONE -->
+            <edition> Università di Pisa, Informatica Umanistica
+               <date>2018</date>
+            </edition>
+            <!-- NOME COMPILATORE -->
+            <respStmt>
+               <resp>Encoding by</resp>
+               <name ref="#XY1">Tommaso Castagneto</name>
+            </respStmt>
+            <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+            <respStmt>
+               <resp>Compilatore</resp>
+               <name ref="#XY2">Tommaso Castagneto</name>
+               <name ref="#XZ1">Andrea Veneziano</name>
+            </respStmt>
+            <respStmt>
+               <resp>Responsabile scientifico</resp>
+               <name ref="#GP">Giacomo Paolicchi</name>
+               <name ref="#ES">Enrica Salvatori</name>
+            </respStmt>
+            <respStmt>
+               <resp>Funzionario responsabile</resp>
+               <name ref="#ER">E. Ratti</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt xml:id="publicationStmt2">
+            <publisher>Unipi</publisher>
+            <pubPlace>Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2020">2020</date>
+            <distributor>LabCD</distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+            </address>
+         </publicationStmt>
+         <notesStmt xml:id="noteStmt2">
+            <note facs = "#stampecartolina">Sul fronte compare il titolo dell'opera, e sul retro una stampa "Proprietà artistica riservata"
+               e "Alfieri e Lacroix, ING. IMP.- Milano"</note>
+         </notesStmt>
+         <sourceDesc xml:id="sourceDesc2">
+            <bibl>
+               <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+               <title xml:id="title2" type="custom" resp="#ES">Un saluto da Giovannino</title>
+               <author>Giovanni</author>
+               <!-- LUOGO -->
+               <pubPlace xml:id="pubPlace2">Modena</pubPlace>
+               <date  xml:id="date2" when="191784">1917/8/4</date>
+            </bibl>
+            <msDesc>
+               <!-- COLLOCAZIONE SPECIFICA -->
+               <msIdentifier>
+                  <country>Italia</country>
+                  <settlement>La Spezia (SP)</settlement>
+                  <!-- COLLOCAZIONE SPECIFICA -->
+                  <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli
+                     garibaldini e della Prima Guerra Mondiale</repository>
+                  <!-- CODICE IDENTIFICATIVO -->
+                  <idno>7694_136_001/002</idno>
+               </msIdentifier>
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang xml:lang="IT">Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp>francobollo - Regno d'Italia</stamp>
+                        </support>
+                        <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                        <condition>Buona</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <additions facs = "#stampacart2">Sul fronte compare il titolo dell'opera, 
+                     e sul retro una stampa "Proprietà artistica riservata" e 
+                     "Alfieri e Lacroix, ING. IMP. - Milano"</additions>
+               </physDesc>
+            </msDesc>
+            <!-- NOMI -->
+            <listPerson>
+               <person>
+                  <persName ref="#GC">
+                     <forename>Giovanni</forename>
+                     <surname>Coliola</surname>
+                  </persName>
+                  <sex>M</sex>
+               </person>
+               <person>
+                  <persName ref="#OT">
+                     <forename>Oliva</forename>
+                     <surname>Turtura</surname>
+                  </persName>
+                  <sex>F</sex>
+               </person>
+            </listPerson>
+            <listPlace>
+               <place>
+                  <placeName ref="MO">Modena</placeName>
+                  <district type="comune">Modena</district>
+                  <district type="provincia">MO</district>
+                  <country key="N">IT</country>
+               </place>
+               <place>
+                  <placeName ref="#RV">Ravenna</placeName>
+                  <district type="comune">Ravenna</district>
+                  <district type="provincia">RV</district>
+                  <country key="N">IT</country>
+               </place>
+            </listPlace>
+            <listOrg>
+               <org>
+                  <orgName type="N"/>
+                  <desc>Comune di La Spezia</desc>
+               </org>
+            </listOrg>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#GC"/>
+               <placeName ref="#MO"/>
+               <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="postage" when="191784">1917/8/4</date>
+               <date type="writing" when="191784">1917/8/4</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#OT"/>
+               <placeName ref="#RV"/>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term>Cartolina</term>
+               <term>Cartolina Artistica</term>
+               <term>Una donna guarda camminare una monaca</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">Italiano</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <!-- Immagini cartolina -->
+   <facsimile xml:id="facsimile2">
+      <surface xml:id="fronte2" start="#cartolinaf2">
+         <!-- Immagine intera fronte -->
+         <graphic url="immagini/7694-136F.jpg"/>
+      </surface>
+      <!-- Immagine intera retro -->
+      <surface start="#cartolinar2" n = "R2">
+         <graphic xml:id="Retro2" url="immagini/7694-136R.jpg" width='593.333334px' height='380.333334px' />
+         <zone  ulx="51" uly="39" lrx="219" lry="337" xml:id='testofirma'/>
+         <zone ulx="485" uly="11" lrx="575" lry="109" xml:id='francobollo2'/>
+         <zone ulx="431" uly="26" lrx="566" lry="146"  xml:id='timbro2' />
+         <zone ulx="288" uly="131" lrx="520" lry="172" xml:id='gentsigna'/>
+         <zone  ulx="299" uly="179" lrx="580" lry="221" xml:id='destinatario2'/>
+         <zone ulx="285" uly="223" lrx="569" lry="274" xml:id='indirizzo2'/>
+         <zone ulx="316" uly="276" lrx="589" lry="346"  xml:id='citta2'/>
+         <zone ulx="232" uly="23" lrx="291" lry="339" xml:id='luogodata2'/>
+         <zone ulx="10" uly="108" lrx="35" lry="258" xml:id='stampacart2' />
+      </surface>
+   </facsimile>
+   <!-- DEFINIZIONE -->
+   <!-- Codifica cartolina-->
+   <text type="cartolina" xml:id="cartolina2">
+      <!-- TRASCRIZIONE -->
+      <body>
+         <pb facs="#fronte2" n="3" xml:id="cartolinaf2"/>
+         <div type="fronte">
+            <!-- Descizione fronte immagine -->
+            <figure xml:id="figure2">
+               <head>
+                  <title xml:id="titolo2">Lettera in viaggio</title>
+               </head>
+               <figDesc>L'immagine raffigura una donna agiata appartenente all'alta borghesia 
+                  con lo sguardo rivolto verso sinistra in direzione di una monaca dall'aspetto umile, 
+                  raffigurata con la testa chinata verso il basso e le mani conserte all'altezza della vita. 
+                  Sul lato destro, all'altezza delle scarpe della donna borghese, 
+                  possiamo notare la firma dell'artista (Minos) e l'anno 1917.</figDesc>
+            </figure>
+            <cb/>
+         </div>
+         <pb facs="#retro2" n="4" xml:id="cartolinar2"/>
+         <div type="retro" xml:id="divTxt2">
+            <div xml:id="testo2" type="message" facs="#zone2">
+               <cb/>
+               <!-- Intestazione cartolina con luogo e data di stesura -->
+               <p facs = "#luogodata2">
+                  <lb/>
+                  <placeName ref="#MO">Modena</placeName>
+                  <pc>,</pc>
+                  <w>lì</w>
+                  <date when="191784">
+                     <num>8</num>
+                     <pc>/</pc>
+                     <num>4</num>
+                     <pc>-</pc>
+                     <choice>
+                        <abbr>17</abbr>
+                        <expan>1917</expan>
+                     </choice>
+                  </date>
+               </p>
+               <!-- Corpo della cartolina -->
+               <p xml:id="corpo2">
+                  <lb/>
+                  
+                  <s facs="#testofirma" type = "sentence"> Saluti a tutti <lb/>Giovannino</s>
+               </p>
+               <cb/>
+            </div>
+            <!-- Indirizzo e destinatario della cartolina-->
+            <div xml:id="indDest2" >
+               <p facs="#gentsigna">
+                  <choice>
+                     <abbr>Gent</abbr>
+                     <expan>
+                        <w>Gent <ex>ile</ex></w>
+                     </expan>
+                  </choice>
+                  <choice>
+                     <abbr>Sig na</abbr>
+                     <expan>
+                        <w>Sig <ex>nori</ex> na</w>
+                     </expan>
+                  </choice>
+               </p>
+                  <lb/>
+              <p facs="#destinatario2">
+                  <persName ref="#OT">
+                     <forename>Oliva</forename>
+                     <surname>Turtura</surname>
+                  </persName>
+              </p>   
+                  <lb/>
+               <p facs="#indirizzo2">
+                  <address>
+                     <addrLine> Via <persName>
+                           <forename>Girolamo</forename>
+                           <surname>Rossi</surname>
+                        </persName>
+                        <num>58</num>
+                     </addrLine>
+                  </address>
+               </p>   
+                  <lb/>
+               <p facs="#citta2">
+                  <placeName ref="#RV">Ravenna</placeName>
+               </p>
+            </div>
+            <div xml:id="timbri2" type="destination" >
+               <p>
+                  <!-- stamps -->
+                  <stamp type="postmark" facs="#timbro2" xml:id = 'stamp2'>
+                     <mentioned>MODENA FERROVIA</mentioned>
+                     <date when="191784">1917/8/4</date>
+                     <lb/>
+                     <time>
+                        <note>L'orario è illeggibile</note>
+                     </time>
+                  </stamp>
+                  <stamp type="postage" facs="#francobollo2" xml:id = "fr2"> Francobollo da 5 centesimi del Regno d'Italia </stamp>
+               </p>
+               <!-- <p xml:id="address2">
+                  <address>
+                     <addrLine>Signorina</addrLine>
+                     <addrLine>
+                        <persName ref="#OT">Oliva Turtura</persName>
+                     </addrLine>
+                     <addrLine>Via Girolamo Rossi 58</addrLine>
+                     <addrLine>
+                        <placeName ref="#RV">Ravenna</placeName>
+                     </addrLine>
+                  </address>
+               </p> -->
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
